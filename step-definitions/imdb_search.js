@@ -29,19 +29,14 @@ module.exports = function () {
 
   this.Then(/^I find the corresponding "([^"]*)" in the search results$/, async function (searchString) {
 
-    let results = await $('div:nth-child(3) > table > tbody > tr > td.result_text');
-
+    let result = await $('div.findSection:nth-child(3) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > a:nth-child(1)');
     let found = false;
-    //console.log("hitta koden", result);
-    for (let result of results) {
-      console.log("TEXT", result.getText());
-      let text = await result.getText();
+    let text = await result.getText();
 
-      if (text.toLowerCase().includes(searchString.toLowerCase())) {
-        found = true;
-        break;
-      }
+    if (text.toLowerCase().includes(searchString.toLowerCase())) {
+      found = true;
     }
+
     assert(found, 'expected to find ' + searchString)
 
   });

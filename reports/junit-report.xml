@@ -5,30 +5,27 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/imdb-search/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="8.352353859">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="11.015981216">
         </testcase>
-        <testcase name="When I enter &quot;Chevy Chase&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.132713457">
+        <testcase name="When I enter &quot;Chevy Chase&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="1.097643419">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="3.033997203">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="2.414755535">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Chevy Chase&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="0.087181811">
+        <testcase name="Then I find the corresponding &quot;Chevy Chase&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;chevy-chase&quot;" time="0.030380912">
         </testcase>
     </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" tests="4" failures="1" skipped="0">
+    <testsuite name="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" tests="4" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/imdb-search/features/imdb_search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="9.292159964">
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="7.183038177">
         </testcase>
-        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="1.131620635">
+        <testcase name="When I enter &quot;Colin Firth&quot; in a search field" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="1.108387656">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="2.916142223">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="3.006298553">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Colin Firth&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="0.102390298">
-            <failure message="TypeError: results is not iterable">TypeError: results is not iterable
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/imdb-search/step-definitions/imdb_search.js:36:24)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        <testcase name="Then I find the corresponding &quot;Colin Firth&quot; in the search results" classname="imdb-search;search-for-a-movie-using-&quot;colin-firth&quot;" time="0.043463342">
         </testcase>
     </testsuite>
 </testsuites>
