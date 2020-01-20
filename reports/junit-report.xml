@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="imdb-search;search-for-a-movie" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/imdb-test/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="7.952254112">
+            <failure message="AssertionError: Expected the IMDB logo">AssertionError: Expected the IMDB logo
+    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/imdb-test/step-definitions/imdb-search.js:9:8)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+        <testcase name="When I enter the &quot;Antz&quot; a search field" classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I find the corresponding &quot;Antz&quot; in the search results" classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-movie" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/imdb-test/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="8.607204136">
+            <failure message="AssertionError: Expected the IMDB logo">AssertionError: Expected the IMDB logo
+    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/imdb-test/step-definitions/imdb-search.js:9:8)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+        <testcase name="When I enter the &quot;A bug&apos;s life&quot; a search field" classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I find the corresponding &quot;A bug&apos;s life&quot; in the search results" classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
