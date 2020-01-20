@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="imdb-search;search-for-a-movie" tests="4" failures="1" skipped="3">
+    <testsuite name="imdb-search;search-for-a-movie" tests="4" failures="1" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/imdb-test/features/imdb-search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/imdb-search/features/imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="7.952254112">
-            <failure message="AssertionError: Expected the IMDB logo">AssertionError: Expected the IMDB logo
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/imdb-test/step-definitions/imdb-search.js:9:8)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="8.357681745">
         </testcase>
-        <testcase name="When I enter the &quot;Antz&quot; a search field" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I enter the &quot;Antz&quot; a search field" classname="imdb-search;search-for-a-movie" time="5.097104333">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie" time="0.000275338">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;Antz&quot; in the search results" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I find the corresponding &quot;Antz&quot; in the search results" classname="imdb-search;search-for-a-movie" time="0.000193737">
+            <failure message="function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)">function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)</failure>
         </testcase>
     </testsuite>
-    <testsuite name="imdb-search;search-for-a-movie" tests="4" failures="1" skipped="3">
+    <testsuite name="imdb-search;search-for-a-movie" tests="4" failures="1" skipped="0">
         <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/imdb-test/features/imdb-search.feature">
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/imdb-search/features/imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="8.607204136">
-            <failure message="AssertionError: Expected the IMDB logo">AssertionError: Expected the IMDB logo
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/imdb-test/step-definitions/imdb-search.js:9:8)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="9.3198687">
         </testcase>
-        <testcase name="When I enter the &quot;A bug&apos;s life&quot; a search field" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I enter the &quot;A bug&apos;s life&quot; a search field" classname="imdb-search;search-for-a-movie" time="5.179834967">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-a-movie" time="0.000133508">
         </testcase>
-        <testcase name="Then I find the corresponding &quot;A bug&apos;s life&quot; in the search results" classname="imdb-search;search-for-a-movie">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I find the corresponding &quot;A bug&apos;s life&quot; in the search results" classname="imdb-search;search-for-a-movie" time="0.000029689">
+            <failure message="function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)">function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)</failure>
         </testcase>
     </testsuite>
 </testsuites>
