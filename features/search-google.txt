@@ -6,3 +6,21 @@ Feature: Search google
     When I enter search text "rubber ducking"
     And I click the search button
     Then the first test result should contain the word "rubber ducking"
+
+
+
+
+ Scenario Outline: Search for a movie using <movie_name> and release <year>.
+   Given that I am on the IMDB website
+   When I enter <movie_name>  and <year> in a search field
+   And I click the search button
+   Then I find the corresponding  <movie_name>  and <year>  in the search results
+
+   Examples:
+   | movie_name     			               | year  |
+   |  "National Lampoon's vacation "     |”1983”  |
+   | " Vacation"                         | “2015” |
+   | “Titanic”                           |  “”        |
+
+
+
